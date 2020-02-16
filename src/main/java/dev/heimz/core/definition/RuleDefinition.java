@@ -5,9 +5,8 @@ import org.immutables.value.Value.Default;
 
 interface RuleDefinition {
 
-    @Default
-    default Rule[] rules() {
-        return new Rule[]{Rule.PERMIT};
-    }
-
+  @Default
+  default Rule[] rules() {
+    return new Rule[] {Rule.PERMIT};
+  }
 }

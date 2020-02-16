@@ -4,14 +4,13 @@ import dev.heimz.core.role.Role;
 
 public class Policy {
 
-    private Role role;
+  private Role role;
 
-    private String object;
+  private String object;
 
-    private String action;
+  private String action;
 
-    private Rule rule;
+  private Rule rule;
 
-    private Priority priority;
-
+  private Priority priority;
 }

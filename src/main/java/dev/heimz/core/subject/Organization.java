@@ -4,23 +4,23 @@ import java.util.List;
 
 public class Organization {
 
-    private String name;
+  private String name;
 
-    private List<User> users;
+  private List<User> users;
 
-    public String getName() {
-        return name;
-    }
+  public String getName() {
+    return name;
+  }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+  public void setName(String name) {
+    this.name = name;
+  }
 
-    public List<User> getUsers() {
-        return users;
-    }
+  public List<User> getUsers() {
+    return users;
+  }
 
-    public void setUsers(List<User> users) {
-        this.users = users;
-    }
+  public void setUsers(List<User> users) {
+    this.users = users;
+  }
 }
